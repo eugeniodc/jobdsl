@@ -1,4 +1,4 @@
-project_name = "jenkins-pipeline-pytho"
+project_name = "jenkins-pipeline-python"
 repo = "git@github.com:eugeniodc/test-jenkins-1.git"
 repo_name = "repo"
 
@@ -16,9 +16,8 @@ pipelineJob(project_name) {
 						url(repo)
 						}
 					}
-					scriptPath("Jenkinsfile")
+				scriptPath("Jenkinsfile")
 				
-				}
 			}
 		}
 	}
